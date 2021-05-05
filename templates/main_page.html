@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Інформація про виробництво продукції в Україні за 2013-2019 роки</title>
+    <link rel="stylesheet" href="../static/css/to_main_page.css" media="screen">
+    <link rel="stylesheet" href="../static/css/main_page.css" media="screen">
+    <meta name="generator" content="Nicepage 3.12.1, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+
+
+    <script type="application/ld+json">{
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "",
+        "url": "index.html"
+    }</script>
+    <meta property="og:title" content="Головна">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#478ac9">
+    <link rel="canonical" href="index.html">
+    <meta property="og:url" content="index.html">
+</head>
+<body class="u-body">
+<header class="u-clearfix u-header u-palette-1-base u-header" id="sec-d053">
+    <div class="u-clearfix u-sheet u-sheet-1"></div>
+</header>
+<section class="u-clearfix u-grey-5 u-section-1" id="sec-223e">
+    <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-gutter-10 u-layout-wrap u-layout-wrap-1">
+            <div class="u-layout" style="">
+                <div class="u-layout-row" style="">
+                    <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-20 u-size-xs-60 u-layout-cell-1"
+                         src="">
+                        <div class="u-container-layout u-container-layout-1">
+                            <a href="/create/" class="u-btn u-btn-round u-button-style u-radius-50 u-btn-1">Додати</a>
+                            <a href="/edit/" class="u-btn u-btn-round u-button-style u-radius-50 u-btn-2">Редагувати</a>
+                            <div class="u-form u-form-1">
+                                <form action="/" method="POST"
+                                      class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form"
+                                      style="padding: 10px" source="custom" name="form">
+
+                                    <input type="hidden" id="siteId" name="siteId" value="42796330">
+                                    <input type="hidden" id="pageId" name="pageId" value="156856424">
+                                    <h6 class="u-text u-text-1">Оберіть код для отримання інформації по
+                                        обсягах виробництва
+                                    </h6>
+
+                                    <div class="u-form-group u-form-phone">
+                                        <select name=ttn_code method="GET" action="/"
+                                                class="u-border-1 u-border-grey-30 u-input u-input-rectangle">
+                                            {% for t_code in ttn_codes %}
+                                                <option value="{{ t_code }}" SELECTED>{{ t_code }}</option>"
+                                            {% endfor %}
+                                        </select>
+                                    </div>
+
+                                    <input class="u-btn u-btn-submit u-button-style" type="submit" name="k_button"
+                                           value="ok">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-20 u-size-xs-60 u-layout-cell-2"
+                         src="">
+                        <div class="u-container-layout u-container-layout-2"></div>
+                    </div>
+                    <div class="u-align-center u-container-style u-image u-layout-cell u-right-cell u-size-20 u-size-xs-60 u-image-1"
+                         src="" data-image-width="1080" data-image-height="1080">
+                        <div class="u-container-layout u-valign-middle u-container-layout-3" src=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-77f3">
+</footer>
+</body>
+</html>
